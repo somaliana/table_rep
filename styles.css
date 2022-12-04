@@ -21,17 +21,16 @@
     border-collapse: collapse;
 }
 #table2 td {
-    border: 3px solid blue;
+    border: 3px solid rgb(54, 54, 54);
 }
 #table3 {
     border: 5px solid red; 
+    border-collapse: collapse;
 }
 
-#table3 thead{
-    border: none;
-    padding: 0;
+
+
+#table3 thead th {
     background-color: navy;
-}
-#table3 > thead > th {
-    margin: 0;
+    
 }
